@@ -57,14 +57,14 @@ padding-top: 3rem;
         background-color: rgba(239, 239, 239, 1);
         display: flex;
         flex-direction: column;
-        padding: 0 1rem;
+        padding: 0 0.1rem;
         margin: 0 1rem 2rem 1rem;
         color: black;
         border-radius: 30px;
         button{
         width: 12rem;
         height: 2.4rem;
-        margin: 0 1rem 1rem 1rem;
+        margin: 0.5rem;
         border-radius: 10px;
         border: 1px solid white;
         background-color : white;
