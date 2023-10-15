@@ -5,7 +5,7 @@ import Landpage from './components/Landpage';
 
 function App() {
   return (
-    <div>
+    <div className='container'>
       <Landpage />
     </div>
   );

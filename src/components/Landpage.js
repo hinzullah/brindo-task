@@ -16,11 +16,12 @@ import card1 from '../assets/card (3).png'
 import roadmap from '../assets/Roadmap section.png'
 import shape from '../assets/shape.png'
 import icons from '../assets/icons.png'
+import '../App.css'
 
   
 const Landpage = () => {
   return (
-    <div>
+    <div className='landpage'>
         <Header>
             <img src={logo} alt='logo' />
             <ul>

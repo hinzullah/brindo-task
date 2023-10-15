@@ -59,37 +59,5 @@ margin: 0 auto;
 }
 
 
-@media only screen 
-and (max-width: 600px){
-    padding: 1rem;
-    .center-hero{
-        padding-left: 0;
-    .text-box{
-        text-align: center;
-        .gray-box{
-            display: flex;
-            flex-direction: column;
-            padding: 1rem 0;
-            .box-left1{
-                width: 164px;
-                height: 164px;
-            }
-            .box-left2{
-                width: 196px;
-                height: 196px;
-                margin-left: 0;
-            }
-        }
-        .white-box{
-            display: flex;
-            flex-direction: column;
-            padding: 0.1rem;
-            .box-right2{
-                width: 164px;
-                height: 164px;
-                margin-right: 0;
-            }
-        }
-    }}
-}
+
 `

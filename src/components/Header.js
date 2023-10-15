@@ -5,7 +5,6 @@ margin:0;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-flex-shrink: 0;
 img{
     width: 240px;
     height: 100px;
@@ -13,11 +12,10 @@ img{
 ul{
     display: flex;
     flex-direction: row;
-    gap: 3rem;
-    padding-left: 4rem;
-    margin: 3rem 2rem;
+
+    margin: 3rem 0;
     li{
-        margin-right: 2rem;
+        margin-right: 4rem;
     }
 }
 button{
@@ -35,7 +33,7 @@ and (max-width: 600px)
         gap: 1rem;
         padding: 0 2rem;
         margin: 3rem 1rem;
-        font-size: 16px;
+        font-size: 20px;
         li{
             margin-right: 1rem;
         } 

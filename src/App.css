@@ -1,0 +1,13 @@
+.landpage{
+    box-sizing: border-box;
+    padding: 0rem;
+    margin: 0;
+    background-color: black;
+}
+@media screen and (max-width: 600px) {
+    .landpage{
+        width: 820px;
+        padding: 0 0.2rem;
+        overflow-x: hidden;
+    }
+}
