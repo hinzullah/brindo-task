@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Hero = styled.div`
-@media screen and (min-width: 1020px) and (max-width: 1700px) {
+
 padding: 2rem;
 box-sizing: border-box;
 margin: 0 auto;
@@ -75,5 +75,5 @@ margin: 0 auto;
 }
 
 
-}
+
 `
