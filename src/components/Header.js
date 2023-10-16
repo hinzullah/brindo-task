@@ -6,25 +6,27 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;
 img{
-    width: 240px;
+    width: 250px;
     height: 100px;
 }
 ul{
     display: flex;
     flex-direction: row;
-
+    width: 290x;
+    height: 20px;
     margin: 3rem 0;
     li{
         margin-right: 4rem;
     }
 }
 button{
-    width: 5rem;
-    height: 2rem;
-    margin: 3rem 2rem;
+    width: 122px;
+    height: 46px;
+    margin: 2rem;
     border-radius: 10px;
     border: 1px solid rgba(245, 232, 118, 1);
     background-color:rgba(245, 232, 118, 1);
+    font-weight: 600;
 }
 @media only screen 
 and (max-width: 600px)

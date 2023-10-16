@@ -8,6 +8,11 @@ export const Footer =styled.div`
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        div{
+            p{
+                color: rgba(150, 150, 150, 1);
+            }
+        }
     }
     .footer2{
         display: flex;

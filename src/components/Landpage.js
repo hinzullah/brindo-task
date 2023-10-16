@@ -3,7 +3,7 @@ import logo from '../assets/logo.png'
 import Header from './Header'
 import box1 from '../assets/{place image here}.png'
 import box2 from '../assets/{place image here} (1).png'
-import boxw2 from '../assets/{place image here} (3).png'
+import boxr2 from '../assets/{place image here} (3).png'
 import { Hero } from './Hero'
 import { Aside } from './Aside'
 import { Footer } from './Footer'
@@ -46,7 +46,7 @@ const Landpage = () => {
                 </div>
                 <div className='white-box'>
                     <img className='box-right1' src={box2} alt="second white box" />
-                    <img className='box-right2' src={boxw2} alt="third white box" />
+                    <img className='box-right2' src={boxr2} alt="third white box" />
                 </div>
             </div>
         </Hero>
