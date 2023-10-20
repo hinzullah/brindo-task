@@ -82,9 +82,8 @@ const Landpage = () => {
                 </div>
                 <div className='participate'>
                     <h1>How to Participate</h1>
-                    <div>
+                    <div className='button'>
                         <button className='black'>Get from Digital eyes</button>
-                        <button>Get from Digital eyes</button>
                         <button>Get from Digital eyes</button>
                         <button>Get from Digital eyes</button>
                         <button>Get from Digital eyes</button>

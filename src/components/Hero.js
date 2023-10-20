@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Hero = styled.div`
-
 padding: 2rem;
 box-sizing: border-box;
 margin: 0 auto;
@@ -46,34 +45,91 @@ margin: 0 auto;
     .gray-box{
             display: flex;
             flex-direction: column;
-            
+            margin-top: 4rem;
             .box-left1{
                 width: 164px;
                 height: 164px;
+                margin-left: -3rem; 
             }
             .box-left2{
                 width: 196px;
                 height: 196px;
-                margin-left: 3rem;
+                margin: 3rem 0  0 3rem;
             }
         }
         .white-box{
             display: flex;
             flex-direction: column;
+            
             .box-right1{
                 width: 132px;
                 height: 132px;
-                margin-top: 1rem;
+                margin-top: -1rem;
+                
             }
             .box-right2{
-                width: 264px;
-                height: 264px;
-                margin:0 3rem;
+                width: 254px;
+                height: 254px;
             }
         }
     
 }
 
+@media screen and (max-width:700px) {
+    .center-hero{
+    flex-direction: column;
+    .text-box{
+        flex-direction: column; 
+    }
+    .gray-box{
+            flex-direction: row;
+            align-items: center;
+            margin: 0 auto;
+            .box-left2{
+                margin-left: 1rem;
+            }
+        }
+        .white-box{
+            flex-direction: row;
+            align-items: center;
+            margin: 0 auto;
+            .box-right1{
+                margin-top: 1rem;
+            }
+            .box-right2{
+                margin: 3rem;
+            }
+        }
+    }
+}
+@media screen and (min-width:900px) and (max-width:1700px) {
+    .center-hero{
+    flex-direction: row;
+    .text-box{
+        flex-direction: column;
+        h2{
+            width: 570px;
+        }
+    }
+    .gray-box{
+            flex-direction: column;
+            padding-left: 0;
+            .box-left2{
+                margin-left: 0;
+            }
+        }
+        .white-box{
+            flex-direction: column;
+            padding-right: 0;
+            .box-right1{
+                margin: 0;
+            }
+            .box-right2{
+                margin: 0;
+            }
+        }
+    }
+}
 
 
 `

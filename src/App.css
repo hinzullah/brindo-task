@@ -5,9 +5,9 @@
     background-color: black;
     overflow-x: hidden;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 760px) {
     .landpage{
-        width: 820px;
+        width: 760px;
         padding: 0 0.2rem;
         overflow-x: hidden;
     }
