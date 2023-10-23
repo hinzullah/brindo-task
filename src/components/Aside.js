@@ -169,31 +169,28 @@ export const Aside = styled.div`
         padding: 2rem;
     }
     .parallax{
-        justify-content: space-between;
-        align-items: center;
-        padding-right:0.1rem ;
+        margin: auto 1rem;
         .parallax-text{
-            padding: 1.5rem;
-            width: 320px;
-            margin: auto 0.1rem;
+            padding: 2rem;
+            width: 263px;
             h2{
-                width: 420px;
-                height: 128px;
+                width: 313px;
+                font-size: 46px;
             }
             p{
-                width: 360px;
-                height: 192px;
+                width: 300px;
+                height: 132px;
+                font-size: 16px;
             }
         }
         .parallax-image{
+            padding: 0;
             img{
                 width: 360px;
             }
         }
     }
     .feature{
-        display :flex ;
-        flex-direction: row;
         justify-content: space-between;
         .feature-text{
             padding: 1.5rem;
@@ -205,18 +202,28 @@ export const Aside = styled.div`
                 width: 344px; 
             }   
         }
+        .feature-image{
+            margin-right :1rem;
+            img{
+                width: 332px;
+                height: 500px;
+            }
+        }
     }
     .participate{
-        padding: 0 0.2rem;
-        height: 152px;
-        margin: 1rem;;
-        button{
-        width: 8rem;
-        height: 2rem;
-        
-    }
+        height: 172px;
+        margin: 1rem auto;
+        width: 700px;
+        .button{
+            button{
+            width: 160px;
+            height: 42px;
+            font-weight: 400;
+            font-size: 14px;
+        }
     
     }
+}
     .roadmap{
         display: flex;
         flex-shrink: 0;
@@ -227,10 +234,11 @@ export const Aside = styled.div`
     }
     .community{
         padding: 0;
-        margin: 1rem;
+        margin: 0.5rem;
+        width: 700px;
         div{
-            gap: 3px;
-            margin: 7px;
+            gap: 5px;
+            margin: 8px;
             img{
                 width: 24px;
                 height: 24px;

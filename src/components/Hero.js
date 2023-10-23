@@ -60,11 +60,11 @@ margin: 0 auto;
         .white-box{
             display: flex;
             flex-direction: column;
-            
             .box-right1{
                 width: 132px;
                 height: 132px;
                 margin-top: -1rem;
+                ;
                 
             }
             .box-right2{
