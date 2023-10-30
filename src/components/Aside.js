@@ -26,7 +26,7 @@ export const Aside = styled.div`
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin: 0 3rem;
+        margin: 0 ;
         .parallax-text{
             padding: 3rem;
             width: 413px;
@@ -50,15 +50,25 @@ export const Aside = styled.div`
         .parallax-image{
             padding: 0;
             img{
-                width: 360px;
+                width: 400px;
+                height: 400px;
+                border-radius: 20px;
             }
+            img:hover{
+            behavior:url(-ms-transform.htc);
+            -webkit-transform:rotate(5deg);
+            transform: rotate();
+            background-color: grey;
+            opacity: 0.6;
+            
+           }
         }
     }
     .feature{
         display :flex ;
         flex-direction: row;
         justify-content: space-between;
-        margin-top: 4rem;
+        margin-bottom: 4rem;
         .feature-text{
             display: flex;
             flex-direction: column;
@@ -95,9 +105,20 @@ export const Aside = styled.div`
             flex-shrink: 0;
             margin-right :4rem;
             img{
-                width: 332px;
-                height: 500px;
+                width: 400px;
+                height: 400px;
+                border-radius: 20px;
+                display:block; 
+                transition: width 2s;
             }
+            img:hover{
+            background-color: grey;
+            opacity: 0.6;
+            behavior:url(-ms-transform.htc);
+            /* Safari and Chrome */
+            -webkit-transform:rotate(-5deg);
+            transform: rotate();
+           }
         }
     }
     .participate{
@@ -129,11 +150,33 @@ export const Aside = styled.div`
        
     }
     .roadmap{
-        display: flex;
-        flex-shrink: 0;
-        padding: 0;
-        img{
+        padding: 3rem;
+        /*.roadpic{
             width: 100%;
+            height: 500px;
+            border-radius: 40px;
+        }*/
+        .events{
+            display: block;
+            flex-direction: column;
+            .up, .down{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                .event-tag{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                    img{
+                        width: 160px;
+                    }
+                }
+            }
+            .down{
+                justify-content: center;
+            }
         }
     }
     .community{

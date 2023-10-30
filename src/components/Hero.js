@@ -1,9 +1,8 @@
 import styled from "styled-components";
 
 export const Hero = styled.div`
-padding: 2rem;
 box-sizing: border-box;
-margin: 0 auto;
+margin: 0 ;
 .box-left{
     margin-top: -4rem;
     margin-left: 6rem;

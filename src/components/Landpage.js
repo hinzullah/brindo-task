@@ -11,12 +11,18 @@ import  box3  from '../assets/{place image here} (4).png'
 import  box4  from '../assets/{place image here} (2).png'
 import train from '../assets/cards (1).png'
 import graytrain from '../assets/cards.png'
-import yourtext from '../assets/cards (2).png'
-import card1 from '../assets/card (3).png'
-import roadmap from '../assets/Roadmap section.png'
-import shape from '../assets/shape.png'
+import madlad from '../assets/madlads.jpg'
+import degod from '../assets/degods.jpeg'
 import icons from '../assets/icons.png'
+import start from '../assets/label.png'
+import start1 from '../assets/label (1).png'
+import start2 from '../assets/label 1.png'
+import start3 from '../assets/label (2).png'
 import '../App.css'
+import {BsDiscord} from 'react-icons/bs'
+import {BiLogoTelegram} from 'react-icons/bi'
+import {AiOutlineTwitter, AiFillYoutube } from 'react-icons/ai'
+import {FaRedditAlien} from 'react-icons/fa'
 
   
 const Landpage = () => {
@@ -60,27 +66,29 @@ const Landpage = () => {
                     <img src={train} alt="Box train" />
                     <img src={graytrain} alt="Box train" />
                 </div>
-                <div className='parallax'>
+                <div className='summary parallax'>
                     <div className='parallax-text'>
                         <h2>Three Key Pointers. Side Parallax Scroll</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                     </div>
                     <div className='parallax-image'>
-                        <img src={yourtext} alt="Your text here" />
+                        <img src={madlad} alt="Your text here" />
                     </div>
                 </div>
-            </div>
-            <div className='feature'>
+
+                <div className='feature'>
                     <div className='feature-text'>
                         <h2>Two Key Features</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ur.</p>
                         <button>Button</button>
                     </div>
                     <div className='feature-image'>
-                        <img src={card1} alt='first card'/>
+                        <img src={degod} alt='first card'/>
                     </div>
                 </div>
-                <div className='participate'>
+            </div>
+                
+                <div className='summary participate'>
                     <h1>How to Participate</h1>
                     <div className='button'>
                         <button className='black'>Get from Digital eyes</button>
@@ -90,19 +98,61 @@ const Landpage = () => {
                     </div>
                 </div>
                 <div className='roadmap'>
-                    <img src={roadmap} alt="roadmap images" />
+                    <div className='events'>
+                        <div className='up'>
+                            <div className='event-tag'>
+                                <div>
+                                    <img src={start} alt='roadmap start' />
+                                    <h5>Q1 2023</h5>
+                                    <p>/Roadmap 1</p>
+                                    <p>/Roadmap 2</p>
+                                    <p>/Roadmap 3</p>
+                                </div>
+                            </div>
+                            <div className='event-tag'>
+                                <div>
+                                    <img src={start1} alt='roadmap start' />
+                                    <h5>Q1 2023</h5>
+                                    <p>/Roadmap 4</p>
+                                    <p>/Roadmap 5</p>
+                                    <p>/Roadmap 6</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='down'>
+                            <div className='event-tag'>
+                                <div>
+                                    <img src={start2} alt='roadmap start' />
+                                    <h5>Q1 2023</h5>
+                                    <p>/Roadmap 7</p>
+                                    <p>/Roadmap 8</p>
+                                    <p>/Roadmap 9</p>
+                                </div>
+                            </div>
+                            <div className='event-tag'>
+                                <div>
+                                    <img src={start3} alt='roadmap start' />
+                                    <h5>Q1 2023</h5>
+                                    <p>/Roadmap 10</p>
+                                    <p>/Roadmap 11</p>
+                                    <p>/Roadmap 12</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div className="community">
                     <div><p className='join'>Join <span>The Community</span></p></div>
-                    <div><img src={shape} alt='shapes' /><p> Discord</p> </div>
-                    <div><img src={shape} alt='shapes' /><p> Telegram</p></div>
-                    <div><img src={shape} alt='shapes' /><p> Twitter</p></div>
-                    <div><img src={shape} alt='shapes' /><p> Youtube</p></div>
-                    <div><img src={shape} alt='shapes' /><p> Reddit</p></div>
+                    <div><BsDiscord /><p> Discord</p> </div>
+                    <div><BiLogoTelegram/><p> Telegram</p></div>
+                    <div><AiOutlineTwitter /><p> Twitter</p></div>
+                    <div><AiFillYoutube /><p> Youtube</p></div>
+                    <div><FaRedditAlien /><p> Reddit</p></div>
                 </div>
         </Aside>
         <Footer>
-            <div className='footer'>
+            <div className='summary footer'>
                 <div>
                     <h6>Product</h6>
                     <p>Blueprint</p>
