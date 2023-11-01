@@ -32,7 +32,7 @@ export const Aside = styled.div`
             width: 413px;
             margin: auto 0;
             h2{
-                width: 513px;
+                width: 480px;
                 height: 128px;
                 font-size: 46px;
                 font-weight: 500;
@@ -48,16 +48,22 @@ export const Aside = styled.div`
             }
         }
         .parallax-image{
-            padding: 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin-right :4rem;
             img{
-                width: 400px;
-                height: 400px;
+                width: 300px;
+                height: 300px;
                 border-radius: 20px;
+                display:block; 
+                transition: width 2s;
             }
             img:hover{
             behavior:url(-ms-transform.htc);
             -webkit-transform:rotate(5deg);
-            transform: rotate();
+            transform: scaleX(-1) scaleY(-1);
             background-color: grey;
             opacity: 0.6;
             
@@ -104,9 +110,10 @@ export const Aside = styled.div`
             flex-direction: row;
             flex-shrink: 0;
             margin-right :4rem;
+            position: relative;
             img{
-                width: 400px;
-                height: 400px;
+                width: 300px;
+                height: 300px;
                 border-radius: 20px;
                 display:block; 
                 transition: width 2s;
@@ -117,7 +124,7 @@ export const Aside = styled.div`
             behavior:url(-ms-transform.htc);
             /* Safari and Chrome */
             -webkit-transform:rotate(-5deg);
-            transform: rotate();
+            transform: scaleX(-1) scaleY(-1);
            }
         }
     }
@@ -159,6 +166,7 @@ export const Aside = styled.div`
         .events{
             display: block;
             flex-direction: column;
+            margin-bottom: 2rem;
             .up, .down{
                 display: flex;
                 flex-direction: row;
@@ -213,6 +221,8 @@ export const Aside = styled.div`
     }
     .parallax{
         margin: auto 1rem;
+        flex-direction: column;
+        margin: 0 ;
         .parallax-text{
             padding: 2rem;
             width: 263px;

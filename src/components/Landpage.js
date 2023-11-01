@@ -12,7 +12,9 @@ import  box4  from '../assets/{place image here} (2).png'
 import train from '../assets/cards (1).png'
 import graytrain from '../assets/cards.png'
 import madlad from '../assets/madlads.jpg'
+import madlad2 from '../assets/madlads2.jpeg'
 import degod from '../assets/degods.jpeg'
+import degod2 from '../assets/degods2.png'
 import icons from '../assets/icons.png'
 import start from '../assets/label.png'
 import start1 from '../assets/label (1).png'
@@ -73,6 +75,7 @@ const Landpage = () => {
                     </div>
                     <div className='parallax-image'>
                         <img src={madlad} alt="Your text here" />
+                        <img src={madlad2} alt="Your text here" />
                     </div>
                 </div>
 
@@ -83,7 +86,8 @@ const Landpage = () => {
                         <button>Button</button>
                     </div>
                     <div className='feature-image'>
-                        <img src={degod} alt='first card'/>
+                        <img className='img1' src={degod} alt='first card'/>
+                        <img src={degod2} alt='first card'/>
                     </div>
                 </div>
             </div>
@@ -119,7 +123,7 @@ const Landpage = () => {
                                 </div>
                             </div>
                         </div>
-
+``
                         <div className='down'>
                             <div className='event-tag'>
                                 <div>
