@@ -9,8 +9,16 @@ import { Aside } from './Aside'
 import { Footer } from './Footer'
 import  box3  from '../assets/{place image here} (4).png'
 import  box4  from '../assets/{place image here} (2).png'
-import train from '../assets/cards (1).png'
-import graytrain from '../assets/cards.png'
+import nft1 from '../assets/nft1.jpg'
+import nft2 from '../assets/nft2.jpg'
+import nft3 from '../assets/nft3.jpg'
+import nft4 from '../assets/nft4.jpg'
+import nft5 from '../assets/nft5.jpg'
+import nft6 from '../assets/nft6.jpg'
+import nft7 from '../assets/nft7.jpg'
+import nft8 from '../assets/nft8.jpg'
+import nft9 from '../assets/nft9.jpg'
+import nft10 from '../assets/nft10.jpeg'
 import madlad from '../assets/madlads.jpg'
 import madlad2 from '../assets/madlads2.jpeg'
 import degod from '../assets/degods.jpeg'
@@ -65,8 +73,22 @@ const Landpage = () => {
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 </div>
                 <div className='train'>
-                    <img src={train} alt="Box train" />
-                    <img src={graytrain} alt="Box train" />
+                    {/*<img src={train} alt="Box train" />
+                    <img src={graytrain} alt="Box train" />*/}
+                    <div className='train-1'>
+                        <img src={nft1} alt='nft'/>
+                        <img src={nft2} alt='nft2'/>
+                        <img src={nft3} alt='nft3'/>
+                        <img src={nft4} alt='nft4'/>
+                        <img src={nft5} alt='nft5'/>
+                    </div>
+                    <div className='train-2'>
+                        <img src={nft6} alt='nft6'/>
+                        <img src={nft7} alt='nft7'/>
+                        <img src={nft8} alt='nft8'/>
+                        <img src={nft9} alt='nft9'/>
+                        <img src={nft10} alt='nft10'/>
+                    </div>
                 </div>
                 <div className='summary parallax'>
                     <div className='parallax-text'>
@@ -102,6 +124,10 @@ const Landpage = () => {
                     </div>
                 </div>
                 <div className='roadmap'>
+                    <div className='roadmap-head'>
+                        <h2>Roadmap</h2>
+                        <p>Roadmap description lorem ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    </div>
                     <div className='events'>
                         <div className='up'>
                             <div className='event-tag'>
@@ -123,7 +149,7 @@ const Landpage = () => {
                                 </div>
                             </div>
                         </div>
-``
+
                         <div className='down'>
                             <div className='event-tag'>
                                 <div>

@@ -18,9 +18,29 @@ export const Aside = styled.div`
         }
     }
     .train{
-        img{
-            width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        width: 100%;
+        div{
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-gap:10px;
         }
+        img{
+                width: 230px;
+                height: 230px;
+                border-radius: 30px;
+                transition: width 2s;
+            }
+            img:hover{
+            behavior:url(-ms-transform.htc);
+            -webkit-transform:rotate(5deg);
+            transform: scaleX(-1) scaleY(-1);
+            background-color: grey;
+            opacity: 0.6;
+            
+           }
     }
     .parallax{
         display: flex;
@@ -163,6 +183,12 @@ export const Aside = styled.div`
             height: 500px;
             border-radius: 40px;
         }*/
+        .roadmap-head{
+            display: flex;
+            flex-direction: column;
+           justify-content: center;
+            text-align: center;
+        }
         .events{
             display: block;
             flex-direction: column;
