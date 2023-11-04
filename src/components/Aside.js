@@ -25,13 +25,20 @@ export const Aside = styled.div`
         div{
             display: grid;
             grid-template-columns: repeat(5, 1fr);
-            grid-gap:10px;
+            grid-gap:40px;
+            margin-right: 24px ;
         }
         img{
-                width: 230px;
-                height: 230px;
-                border-radius: 30px;
+                width: 240px;
+                height: 240px;
+                border-radius: 40px;
                 transition: width 2s;
+            }
+            .train-1{
+                margin:  0 1rem 0 -2rem;
+            }
+            .train-2{
+                margin:  0 -2rem 0 1rem;
             }
             img:hover{
             behavior:url(-ms-transform.htc);
@@ -39,7 +46,8 @@ export const Aside = styled.div`
             transform: scaleX(-1) scaleY(-1);
             background-color: grey;
             opacity: 0.6;
-            
+            width: 245px;
+            height: 245px;
            }
     }
     .parallax{
